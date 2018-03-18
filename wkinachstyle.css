@@ -1,0 +1,330 @@
+@font-face {
+	font-family: ElegantLux-Mager;
+	src: url(ElegantLux-Mager.otf);
+}
+
+@font-face {
+	font-family: HaginCapsMedium;
+	src: url(HaginCapsMedium.otf);
+}
+
+@font-face {
+	font-family: HaginCapsThin;
+	src: url(HaginCapsThin.otf);
+}
+
+@font-face {
+	font-family: Cinzel-Regular;
+	src: url(Cinzel-Regular.otf);
+}
+
+@font-face {
+	font-family: Inconsolata;
+	src: url(Inconsolata.otf);
+}
+
+@font-face {
+	font-family: Yrsa-Regular;
+	src: url(Yrsa-Regular.otf);
+}
+
+@font-face {
+	font-family: Yrsa-Light;
+	src: url(Yrsa-Light.otf);
+}
+
+
+body {
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.bground { 
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+	
+
+.logoSpace {
+	height: 120px;
+	width: 100%;
+	background-color: #000000;
+}
+
+.text1 {
+	font-size: 60px;
+	color: #FFFFFF;
+	background-color: transparent;
+	margin: -34px 0px 0px 0px;
+	text-align: center;
+	position:relative;
+	z-index:1;
+}
+.text2 {
+	font-size: 24px;
+	color: #FFFFFF;
+	background-color: transparent;
+	margin: -51px 0px 0px -1000px;
+	text-align: center;
+	position:relative;
+	z-index:1;
+}
+
+.text3 {
+	font-size: 24px;
+	color: #FFFFFF;
+	background-color: transparent;
+	margin: -27px 0px 0px 1000px;
+	text-align: center;
+	position:relative;
+	z-index:1;
+}
+
+.text4 {
+	font-size: 24px;
+	color: #FFFFFF;
+	background-color: transparent;
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+	position:relative;
+	z-index:1;
+}
+
+.molo {
+	margin: -55px 0px 0px 0px;
+	width: 100%;
+}
+
+.headers {
+	background-color: white;
+	width: 500px;
+	font-family: Yrsa-Regular;
+	font-size: 28px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+}
+
+.headers:hover {
+	transition: 0.5s;
+	background-color: #660033 ;
+	color: #FFFFFF;
+}
+
+.headersPics {
+	height: 300px;
+	width: 100%;
+	background-color: #FFFFFF;
+	margin: 0px auto 145px auto;
+	padding: 50px 0px 50px 0px;
+}
+
+.blackBL {
+	background-color: #000000;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    width: 200px;
+	float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.jcarousel img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+	margin-left: 0px;
+}
+
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 150px;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+
+    border-radius: 30px;
+
+    box-shadow: 0 0 4px #F0EFE7;
+}
+
+.jcarousel-control-prev {
+    left: 15px;
+}
+
+.jcarousel-control-next {
+    right: 15px;
+}
+
+/** Carousel Pagination **/
+
+
+.text1:hover{
+	color: #660033;
+	transition: 0.5s;
+}
+
+.name {
+	font-family: HaginCapsMedium;
+	position: relative;
+	color: #FFFFFF;
+	background-color: #000000;
+	width: 200px;
+	height: 60px;
+	padding: 10px 0px 10px 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	text-align: center;
+	font-size: 18px;
+	
+}
+
+a { text-decoration: none; }
+
+.date { 
+	font-family: HaginCapsThin;
+	font-weight: bold;
+	color: #ccffff;
+}
+
+.jcarousel li {
+	border-top: 35px solid #000000;
+}
+
+.jcarousel li:hover {
+	border-bottom: 10px solid #21263a;
+	box-shadow: 0 1px 60px 0 #21263a;
+	transition: 0.5s;
+	position: relative;
+
+}
+
+.revTeaser {
+	margin: 20px 0px 0px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: absolute;
+	width: 100%;
+}
+
+.revTeaser:hover {
+	box-shadow: 0 4px 8px 0 #21263a, 0 6px 20px 0 #21263a;
+	transition: 0.5s;
+}
+
+.photoRev {
+	float: left;
+	height: 395px;
+}
+
+.nameRev {
+	font-family: HaginCapsMedium;
+	text-align: center;
+	font-size: 40px;
+	margin: 50px 0px 0px 0px;
+	padding: 0px 0px;
+	
+}
+
+.nameRev:hover {
+	background-color: #660033;
+	color: #FFFFFF;
+	transition: 0.5s;
+}
+
+.textRev { 
+	height: 134px;
+	padding: 60px 20px 50px 722px;
+	font-family: Yrsa-Light;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+.look {
+	height: 40px;
+	text-align: right;
+	padding: 0 40px 0 0;
+	color: #911653;
+	font-size: 16px;
+}
+
+.logoSpace2 {
+	height: 120px;
+	width: 100%;
+	background-color: #000000;
+	margin-top: -18px;
+}
+
+#JestemMordercą {
+	display: none;
+}
+#SzczęścieŚwiata {
+	display: none;
+}
+#Paterson {
+	display: none;
+}
+#Konwój {
+	display: none;
+}
+#ManchesterByTheSea {
+	display: none;
+}
+#LaLaLand {
+	display: none;
+}
+#SztukaKochania {
+	display: none;
+}
+#ToniErdmann {
+	display: none;
+}#Elle {
+	display: none;
+}
+#AutopsjaJaneDoe {
+	display:none;
+}
+#Jackie {
+	display:none;
+}
+#ItsOnlyTheEndOfTheWorld {
+	display:none;
+}
+#Milczenie {
+	display:none;
+}
+#Moonlight {
+	display:none;
+}
+#Pokot {
+	display:none;
+}
+#Praktykant {
+	display:none;
+}
+
